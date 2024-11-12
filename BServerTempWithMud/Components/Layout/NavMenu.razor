@@ -1,0 +1,17 @@
+﻿<MudNavMenu Bordered="true">
+
+    <MudNavLink Href="/" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Home">صفحه نخست</MudNavLink>
+    @* <MudNavLink OnClick="UpdatePerson" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.CoPresent">اشخاص</MudNavLink> *@
+    <MudNavGroup Icon="@Icons.Material.Filled.Domain" Title="متن">
+        <MudNavLink Href="#" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Domain">متن</MudNavLink>
+        <MudNavLink Href="#  " Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.HomeWork">متن</MudNavLink>
+    </MudNavGroup>
+    <MudNavGroup Icon="@Icons.Material.Filled.Search" Title=" متن" Expanded="false">
+        <MudNavLink Icon="@Icons.Material.Filled.PersonSearch" Href="#">متن</MudNavLink>
+       @*  <MudNavLink Icon="@Icons.Material.Filled.Phone" Href="/PhoneSearch">متن</MudNavLink> *@
+       
+    </MudNavGroup>
+
+    <MudNavLink Href="/" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.ManageAccounts">حساب کاربری</MudNavLink>
+
+</MudNavMenu>

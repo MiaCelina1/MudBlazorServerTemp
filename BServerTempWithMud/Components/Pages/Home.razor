@@ -1,0 +1,17 @@
+﻿@page "/"
+
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+@code
+{
+    [Inject] public IUserServices Userservices { get; set; }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        var res = await Userservices.GetAllUser();
+    }
+}
