@@ -149,3 +149,4 @@ C:\Users\S2\source\repos\BServerTempWithMud\BServerTempWithMud\obj\Debug\net8.0\
 C:\Users\S2\source\repos\BServerTempWithMud\BServerTempWithMud\obj\Debug\net8.0\BServerTempWithMud.pdb
 C:\Users\S2\source\repos\BServerTempWithMud\BServerTempWithMud\obj\Debug\net8.0\BServerTempWithMud.genruntimeconfig.cache
 C:\Users\S2\source\repos\BServerTempWithMud\BServerTempWithMud\obj\Debug\net8.0\ref\BServerTempWithMud.dll
+C:\Users\S2\source\repos\BServerTempWithMud\BServerTempWithMud\obj\Debug\net8.0\BServerTempWithMud.sourcelink.json
