@@ -12,6 +12,7 @@
 	[Inject] public ISnackbar MySnackBar { get; set; }
 
 	[CascadingParameter] MudDialogInstance MudDialog { get; set; }
+	[Parameter] public int Id { get; set; }
 
 	private void Submit() => MudDialog.Close(DialogResult.Ok(true));
 

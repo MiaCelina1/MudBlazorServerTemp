@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\S2\\source\\repos\\BServerTempWithMud\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CCF3BFD3-D7E6-4001-B24B-84C048563BE8}|BServerTempWithMud\\BServerTempWithMud.csproj|c:\\users\\s2\\source\\repos\\bservertempwithmud\\bservertempwithmud\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCF3BFD3-D7E6-4001-B24B-84C048563BE8}|BServerTempWithMud\\BServerTempWithMud.csproj|solutionrelative:bservertempwithmud\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CCF3BFD3-D7E6-4001-B24B-84C048563BE8}|BServerTempWithMud\\BServerTempWithMud.csproj|c:\\users\\s2\\source\\repos\\bservertempwithmud\\bservertempwithmud\\components\\dialog\\tempdialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CCF3BFD3-D7E6-4001-B24B-84C048563BE8}|BServerTempWithMud\\BServerTempWithMud.csproj|solutionrelative:bservertempwithmud\\components\\dialog\\tempdialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCF3BFD3-D7E6-4001-B24B-84C048563BE8}|BServerTempWithMud\\BServerTempWithMud.csproj|c:\\users\\s2\\source\\repos\\bservertempwithmud\\bservertempwithmud\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CCF3BFD3-D7E6-4001-B24B-84C048563BE8}|BServerTempWithMud\\BServerTempWithMud.csproj|solutionrelative:bservertempwithmud\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CCF3BFD3-D7E6-4001-B24B-84C048563BE8}|BServerTempWithMud\\BServerTempWithMud.csproj|c:\\users\\s2\\source\\repos\\bservertempwithmud\\bservertempwithmud\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCF3BFD3-D7E6-4001-B24B-84C048563BE8}|BServerTempWithMud\\BServerTempWithMud.csproj|solutionrelative:bservertempwithmud\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +22,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\S2\\source\\repos\\BServerTempWithMud\\BServerTempWithMud\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "BServerTempWithMud\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\S2\\source\\repos\\BServerTempWithMud\\BServerTempWithMud\\Components\\_Imports.razor",
+              "RelativeToolTip": "BServerTempWithMud\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T07:23:55.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "TempDialog.razor",
               "DocumentMoniker": "C:\\Users\\S2\\source\\repos\\BServerTempWithMud\\BServerTempWithMud\\Components\\Dialog\\TempDialog.razor",
               "RelativeDocumentMoniker": "BServerTempWithMud\\Components\\Dialog\\TempDialog.razor",
-              "ToolTip": "C:\\Users\\S2\\source\\repos\\BServerTempWithMud\\BServerTempWithMud\\Components\\Dialog\\TempDialog.razor*",
-              "RelativeToolTip": "BServerTempWithMud\\Components\\Dialog\\TempDialog.razor*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\S2\\source\\repos\\BServerTempWithMud\\BServerTempWithMud\\Components\\Dialog\\TempDialog.razor",
+              "RelativeToolTip": "BServerTempWithMud\\Components\\Dialog\\TempDialog.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-13T07:17:55.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\S2\\source\\repos\\BServerTempWithMud\\BServerTempWithMud\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "BServerTempWithMud\\Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\S2\\source\\repos\\BServerTempWithMud\\BServerTempWithMud\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "BServerTempWithMud\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-12T11:57:56.186Z",
               "EditorCaption": ""

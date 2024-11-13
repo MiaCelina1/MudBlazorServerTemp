@@ -5,18 +5,24 @@
 <PageTitle>Home</PageTitle>
 
 <h1>Hello, world!</h1>
-
+<MudButton Color="Color.Info" Variant="Variant.Filled" @onclick="OpenDialogAsync">Show Dialog</MudButton>
 Welcome to your new app.
 @code
 {
     [Inject] public IUserServices Userservices { get; set; }
-
+    [Inject] public ISnackbar MySnackBar { get; set; }
+    [Inject] public IDialogService dialogService { get; set; }
+    int temppara = 0;
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         var res = await Userservices.GetAllUser();
     }
-    private Task OpenDialogAsync()
+    private async Task OpenDialogAsync()
     {
-        return DialogService.ShowAsync<TempDialog>("Options Dialog");
+        var options = new DialogOptions { CloseOnEscapeKey = true };
+        var para = new DialogParameters<TempDialog>();
+        para.Add(x => x.Id, temppara);
+        var res= await  dialogService.ShowAsync<TempDialog>("Options Dialog");
     }
+
 }
