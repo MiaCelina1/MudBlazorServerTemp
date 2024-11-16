@@ -1,40 +1,39 @@
 ﻿@inherits LayoutComponentBase
 
 
-    <MudRTLProvider RightToLeft="true">
-        <MudThemeProvider />
-        <MudDialogProvider />
-        <MudSnackbarProvider />
+<MudRTLProvider RightToLeft="true">
+	<MudThemeProvider />
+	<MudDialogProvider />
+	<MudSnackbarProvider />
+	<MudPopoverProvider />
+	<MudLayout>
+		<MudAppBar Elevation="1" Dense="true">
+			<MudGrid>
+				<MudItem xs="2">
+					<MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" OnClick="@((e) => DrawerToggle())" />
+				</MudItem>
+				<MudItem xs="8">
+					<MudStack Style="text-align:center;">
+						@* <MudText Class="Yekan_font pt-3">@title</MudText> *@
+					</MudStack>
+				</MudItem>
+				<MudItem xs="2" Style="text-align:left;">
+					<MudStack Row Justify="Justify.FlexEnd">
+						@*  <MudText Class="pt-3">@UserName</MudText> *@
+						<MudIconButton Href="/" Icon="@Icons.Material.Filled.Logout" Color="Color.Inherit"></MudIconButton>
+					</MudStack>
+				</MudItem>
+			</MudGrid>
 
-        <MudLayout>
-            <MudAppBar Elevation="1" Dense="true">
-                <MudGrid>
-                    <MudItem xs="2">
-                        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" OnClick="@((e) => DrawerToggle())" />
-                    </MudItem>
-                    <MudItem xs="8">
-                        <MudStack Style="text-align:center;">
-                            @* <MudText Class="Yekan_font pt-3">@title</MudText> *@
-                        </MudStack>
-                    </MudItem>
-                    <MudItem xs="2" Style="text-align:left;">
-                        <MudStack Row Justify="Justify.FlexEnd">
-                           @*  <MudText Class="pt-3">@UserName</MudText> *@
-                            <MudIconButton Href="/" Icon="@Icons.Material.Filled.Logout" Color="Color.Inherit"></MudIconButton>
-                        </MudStack>
-                    </MudItem>
-                </MudGrid>
 
 
-
-            </MudAppBar>
-            <MudDrawer @bind-Open="@_drawerOpen" ClipMode="DrawerClipMode.Always" Variant="DrawerVariant.Mini" Elevation="1">
-                 <MudImage Src="/images/images.jpg" Alt="عکس" Elevation="25" Class="rounded-lg " /> 
-                <NavMenu />
-            </MudDrawer>
-            <MudMainContent id="Body">
-                @Body
-            </MudMainContent>
-        </MudLayout>
-    </MudRTLProvider>
-    
+		</MudAppBar>
+		<MudDrawer @bind-Open="@_drawerOpen" ClipMode="DrawerClipMode.Always" Variant="DrawerVariant.Mini" Elevation="1">
+			<MudImage Src="/images/images.jpg" Alt="عکس" Elevation="25" Class="rounded-lg " />
+			<NavMenu />
+		</MudDrawer>
+		<MudMainContent id="Body">
+			@Body
+		</MudMainContent>
+	</MudLayout>
+</MudRTLProvider>

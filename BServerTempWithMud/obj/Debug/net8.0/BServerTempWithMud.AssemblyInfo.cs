@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BServerTempWithMud")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea8b925ba35d56b30283239d84f4bbd7c4f9916b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8661c16c77dba600f449b0acdcb7ac5814fdb216")]
 [assembly: System.Reflection.AssemblyProductAttribute("BServerTempWithMud")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BServerTempWithMud")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
